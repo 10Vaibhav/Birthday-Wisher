@@ -1,14 +1,27 @@
 # Birthday-Wisher
-It's Project Based on Python  'SMTP' and  'DateTime'  Library.
+Birthday Wisher is a Python script that automatically sends personalized birthday emails to your contacts on their special day.
 
-#  Explanation
+## Features
 
-The Birthday Wisher is a Python project that automates the process of sending personalized birthday emails to your contacts. It reads birthday information from a CSV file, checks if there are any birthdays on the current day, and sends a customized email if it's someone's birthday.
+- Reads birthday data from a CSV file
+- Selects a random email template for each birthday
+- Personalizes email content with the recipient's name
+- Automatically sends emails on the day of each person's birthday
 
-## Project Structure
+## Requirements
 
-1. `birthdays.csv`: Contains contact information and birthdays
-2. `main.py`: The main Python script that handles the logic
-3. `letter_templates/`: A directory containing email templates
+- Python 3.x
+- pandas library
+- Access to an SMTP server (Gmail in this case)
+
+## File Structure
+
+- `main.py`: The main Python script
+- `birthdays.csv`: CSV file containing birthday data
+- `letter_templates/`: Directory containing email templates
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome. Feel free to check the issues page if you want to contribute.
 
 
